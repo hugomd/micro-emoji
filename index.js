@@ -11,6 +11,16 @@ app.connection({ port: 3000 })
 const routes = [
   {
     method: 'GET',
+    path: '/',
+    config: {
+      handler: (req, res) => {
+        res('You need to supply an emoji. Available:\nGET /list\nGET/:emojiName\n\ne.g. GET /tada')
+        .type("text/plain")
+      }
+    }
+  },
+  {
+    method: 'GET',
     path: '/list',
     config: {
       handler: async (req, res) => {
