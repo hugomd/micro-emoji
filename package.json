@@ -1,0 +1,26 @@
+{
+  "name": "micro-emoji",
+  "version": "1.0.0",
+  "description": "A microservice for serving, listing and searching for emoji",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomd/micro-emoji.git"
+  },
+  "author": "Hugo Muller-Downing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomd/micro-emoji/issues"
+  },
+  "homepage": "https://github.com/hugomd/micro-emoji#readme",
+  "dependencies": {
+    "emojione": "^2.2.7",
+    "fs-promise": "^2.0.0",
+    "hapi": "^16.1.0",
+    "inert": "^4.1.0"
+  }
+}
