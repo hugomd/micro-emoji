@@ -14,7 +14,7 @@ const routes = [
     path: '/list',
     config: {
       handler: async (req, res) => {
-        res(EmojiShortnames)
+        res.file('./emoji-shortnames.json')
       }
     }
   },
