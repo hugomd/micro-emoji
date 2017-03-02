@@ -15,7 +15,8 @@ GET /list
 GET /search/:emojiName [not implemented]
 ```
 
-[comment]: <> (TODO: Add Example GIF)
+# Example
+![Example GIF](http://hu.md/Rf0i/1JkszGQM.gif)
 
 # Contributing
 Clone the repo, `yarn install`, `yarn run dev`, change what you'd like and make a pull request ✌️
