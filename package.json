@@ -7,6 +7,9 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
+  "now": {
+    "alias": "e.now.sh"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hugomd/micro-emoji.git"
